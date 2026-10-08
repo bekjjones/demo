@@ -1,9 +1,14 @@
+* {
+    /* This style applies to all elements */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 h1 {
     color: green;
 }
 
-p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.main-content p {
+    /* This is an example of styling all P (paragraph) elements within all elements that have a class attribute with the value "main-content" */
     font-size: 200%;
 }
 
